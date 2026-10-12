@@ -113,12 +113,13 @@ docker compose down -v
 
 ## Здача
 
+Репозиторій: https://github.com/omyknz-ops/goit-mlops-hw-01 — PM-пакет у папці `lesson-3-pm/`, гілка `lesson-3-pm`.
+
 ```bash
-git checkout -b lesson-3-pm
-git add lesson-3-pm/
-git commit -m "Lesson 3: AI PM package for ML model containerization"
-git push -u origin lesson-3-pm
+git clone https://github.com/omyknz-ops/goit-mlops-hw-01.git
+cd goit-mlops-hw-01
+git checkout lesson-3-pm
 zip -r ДЗ3_PM_Михайленко_Ольга.zip lesson-3-pm/
 ```
 
-У LMS: архів + посилання на гілку `lesson-3-pm` у GitLab.
+У LMS: архів + посилання на гілку `lesson-3-pm`: https://github.com/omyknz-ops/goit-mlops-hw-01/tree/lesson-3-pm
